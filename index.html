@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="Experience.css">
+    <link rel="stylesheet" href="Mywork.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="code.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Yeon+Sung&display=swap');
+        </style>
+    <script src="https://kit.fontawesome.com/1ded8f9726.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--------------------------------------- header ------------------------------------------------>
+    <div id="header">
+        <div class="container">
+
+            <div class="Logo"><img class="Log" src="images/logo.JPG" alt="Logo Loading.. please wait"></div>
+            <div class="NavItems">
+                <ul class="NavlistItems">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myWork">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="frontPage">
+                <div class="Intro">
+                    <p class="desg">FullStack Developer</p>
+                    <p class="desc">Hi, I'm <span style="color: #ff3300;"> Harsh</span><br>
+                        Happy to See You Here</p>
+                </div>
+            </div>
+    </div>
+<!------------------------------------------------ About ------------------------------------------------>
+    <div id="about">
+        <div class="AboutImage"></div>
+        <div class="AboutMeContent">
+            <div class="AboutMePara"> 
+                <p class="p1">About Me </p>
+                <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laudantium quo temporibus aspernatur, cupiditate perferendis eveniet ducimus doloribus accusamus nulla numquam tenetur sint facere iste, beatae eum adipisci pariatur odio. Quo iste nulla quae eum dolores possimus sunt, tenetur tempore.</p>
+            </div>
+            <div class="AboutMain">
+                <ul class="headings">
+                    <li id="Skills" onclick="aboutMe(id)" >Skills</li>
+                    <li id="Experience" onclick="aboutMe(id)">Experience</li>
+                    <li id="Education" onclick="aboutMe(id)">Education</li>
+                </ul>
+
+                <div class="data">
+                <div id="skillData" class="flex" >
+                    <div class="BackEnd">
+                        <p style="color: #ff3300;">BackEnd</p> 
+                        <ul>
+                            <li>Java</li>
+                            <li>SpringBoot</li>
+                            <li>Junit 5</li>
+                            <li>SQL</li>
+                            <li>JPA/Hibernate</li>
+                            <li>Spring Microservices</li>
+                            <li>REST API</li>
+                            <li>Apache Kafka</li>
+                            <li>ELK stack</li>
+                        </ul>
+                    </div>
+                    <div class="FrontEnd">
+                        <p style="color: #ff3300;">FrontEnd</p> 
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="Tools">
+                        <p style="color: #ff3300;">Tools</p> 
+                        <ul>
+                            <li>IntelliJ</li>
+                            <li>Eclipse</li>
+                            <li>VScode</li>
+                            <li>GIT</li>
+                            <li>Gradle/Maven</li>
+                            <li>DBeaver</li>
+                            <li>Postman</li>
+                            <li>Jenkins</li>
+                            <li>Kubernates</li>
+                        </ul>
+                    </div>
+                </div>
+ 
+                <div id="ExperienceData" class="hide">
+                        <ul>
+                            <li style="color: #ff3300; list-style: none;" >May 2022 - Nov 2022 <p style="color: aliceblue;"> Infosys Project : Developed a middleware between e-commerce platform and Social Platform.</p></li>
+                            <li style="color: #ff3300; list-style: none;" >March 2022 - April 2022
+                                <p style="color: aliceblue;">Infosys Project : Consumed XML data form kafka then generate AVRO/Json messages and store them in database. </p>
+                            </li>
+                            <li style="color: #ff3300; list-style: none;">Nov 2021 - Jan 2022
+                                <p style="color: aliceblue;">Trained at Infosys in Backend development.</p>
+                            </li>
+                        </ul>
+                </div>
+
+                <div id="EducationData" class="hide">
+                    <ul>
+                        <li style="color: #ff3300; list-style: none;" >2021 <p style="color: aliceblue;"> B.tech from Rajasthan Technical University in Electrical Engineering Branch With Honers.</p></li>
+                        <li style="color: #ff3300; list-style: none;" >2017 
+                            <p style="color: aliceblue;">Higher Secondary from CBSE Board with 72%. </p>
+                        </li>
+                        <li style="color: #ff3300; list-style: none;">2015
+                            <p style="color: aliceblue;">Secondary from CBSE Board with 9.2 CGPA.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------ MyWork ------------------------------------------------>
+    <div id="myWork">
+        <div class="headWork">
+        <h1>MY WORK</h1></div>
+        <div class="box">
+            <div class="img">
+                <img src="images/work-1.png">
+                <div class="UpTouch">
+                <h3>My Portfolio</h3>
+                <p>Oh!! You are already at my first project.</p>
+            </div>
+            </div>
+            <div class="img">
+                <img src="images/work-2.png">
+                <div class="UpTouch">
+                <h3>React Website</h3>
+                <p>Work in progress</p>
+            </div>
+            </div>
+            <div class="img">
+                <img src="images/work-3.png">
+                <div class="UpTouch">
+                <h3>More Projects Soon</h3>
+            </div>
+            </div>
+    </div>
+    </div>
+
+    <!------------------------------------------------ About ------------------------------------------------>
+    <div id="contact">
+        <div class="details">
+            <h2>Contact Me</h2><br>
+            <div class="d"><i class="fa-solid fa-envelope"></i> Harsh80183@gmail.com</div>
+            <div class="d"><i class="fa-solid fa-phone"></i> +91-7023384417</div>
+            <div class="social d">
+                <div class="linkedIn"><a href="https://www.linkedin.com/in/harsh-vardhan-saini-204360148/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div class="tweeter"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="fb"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="insta"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+            </div> 
+            <div class="cv d"><a href="" download="profile.pdf"><i class="fa-solid fa-download"></i> Download Resume</a></div>
+        </div>
+        <div class="form">
+            <input class="formContent" type="text" name="Name" id="Name" placeholder="Your Name"> <br>
+            <input class="formContent" type="email" name="Email" id="Email" placeholder="Your Email"><br>
+            <textarea class="formContent" name="Message" id="Message" cols="10" rows="10" placeholder="Your Message"></textarea>
+            <input class="formbtn"type="button" value="Sumbit">
+        </div>
+    </div>
+    <div class="copyright"><p>Copyright &copy; Harsh Vardhan Saini . Made By <i class="fa-solid fa-heart" style="color: #ff3300;"></i> Using Pure <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-square-js"></i></p></div>
+</body>
+
+</html>

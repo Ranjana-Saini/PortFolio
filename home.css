@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    background-color: black;
+    background-image: url(images/Capture.JPG);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.container{
+    padding-top: 5vh;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    height: 20vh;
+}
+.Logo{
+    margin-left: 5vw;
+}
+
+.Log{
+    width: 20vw;
+}
+
+.NavlistItems{
+    display: flex;
+    list-style: none;
+}
+
+.NavlistItems li a{
+    text-decoration: none;
+    margin-right: 5vw;
+    color: aliceblue;
+    position: relative;
+}
+
+.NavlistItems li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #ff3300;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.NavlistItems li a:hover::after{
+    width: 100%;
+}
+
+.frontPage{
+    display: flex;
+    color: aliceblue;
+    width: fit-content;
+
+}
+.Intro{
+    align-self: center;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    height: fit-content;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: xxx-large;
+}
+.desg{
+    font-size: large;
+}
+.desc{
+    font-size:larger ;
+}

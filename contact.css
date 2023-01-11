@@ -1,0 +1,113 @@
+#contact{
+    background-color: black;
+    height: 95vh;
+    display: flex;
+}
+
+.details{
+    padding-top: 10vh;
+    height: 80vh;
+    width: 50%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.details h2{
+    font-size: 60px;
+    margin-left: 10vw;
+    padding-top: 3vh;
+}
+
+.d{
+    font-size: 15px;
+margin-left: 10vw;
+padding-top: 3vh;
+}
+
+.social{
+    display: flex;
+    width: 8vw;
+    justify-content: space-between;
+    padding-top: 5vh;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.social a{
+    color: aliceblue;
+}
+
+.linkedIn a :hover,.tweeter a :hover,.fb a :hover,.insta a :hover{
+    color: aqua; 
+    transform: translateY(-5px);
+}
+
+.cv{
+    border: 2px solid;
+    padding-top: 14px;
+    padding-left: 2vw;
+    width: 12vw;
+    height: 5vh;
+    margin-top: 5vh;
+    background-color: #ff3300;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.cv a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.cv:hover{
+    transform: translateY(-5px);
+}
+
+.form{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 18vh;
+}
+
+.formContent{
+    background-color: #262626;
+    border-radius: 8px;
+    color: aliceblue;
+    height: 3vh;
+    width: 70%;
+    margin: 1vh 0vw;
+    padding: 1vh;
+}
+
+#Message{
+    height: 20vh;
+}
+
+.formbtn{
+    width: 8vw;
+    margin: 5vh 0;
+    height: 5vh;
+    background-color: #ff3300;
+    color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.formbtn:hover{
+    transform: translateY(-5px);
+}
+
+.copyright{
+    height: 5vh;
+    text-align: center;
+    padding-top: 1.5vh;
+    color: aliceblue;
+    background-color: #262626;
+}

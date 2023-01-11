@@ -1,0 +1,60 @@
+#myWork{
+    height: 100vh;
+    background-color: black;
+    border: 2px solid white;
+}
+.box{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.img img{
+    border-radius: 10px;
+    height: 50vh;
+    width: 20vw;
+}
+
+.img{
+    cursor: pointer;
+    position: relative;
+}
+
+.UpTouch{
+    height: 0;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff3300);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0,40px;
+    text-align: center;
+    transition: 1s;
+    font-size: 0px;
+}
+
+.UpTouch h3{
+    font-size: 0px;
+    padding-bottom: 15px;
+}
+
+.img:hover .UpTouch{ 
+    height: 100%;
+    font-size: 15px;
+}
+
+.img:hover .UpTouch h3{
+    font-size: 40px;
+}
+
+
+
+.headWork {
+    padding: 10vh 0vw 10vh 10vw;
+    font-family: 'Yeon Sung', cursive;
+    color: aliceblue;
+}

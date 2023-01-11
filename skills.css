@@ -1,0 +1,56 @@
+.headings li{
+    list-style: none;
+    display: inline;
+    margin-left: 5vw;
+    font-family: 'Yeon Sung', cursive;
+    font-size: x-large;
+    position: relative;
+    cursor: pointer;
+}
+
+.headings li::after{
+    content: '';
+    width: 0;
+    background-color: #ff3300;
+    position: absolute;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.headings li:hover::after{
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+.data{
+    margin-top: 5vh;
+    height: fit-content;
+}
+.BackEnd {
+    margin-left: 5vw;
+}
+.BackEnd ul {
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.FrontEnd{
+    margin-left: 5vw;
+}
+.FrontEnd ul{
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.Tools{
+    margin-left: 5vw;
+}
+.Tools ul{
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
