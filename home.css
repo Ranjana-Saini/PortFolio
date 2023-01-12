@@ -69,11 +69,11 @@ html{
     margin-left: 10vw;
     height: fit-content;
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: xxx-large;
+    font-size: 5vh;
 }
 .desg{
-    font-size: large;
+    font-size: 1em;
 }
 .desc{
-    font-size:larger ;
+    font-size:2em ;
 }

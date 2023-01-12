@@ -1,4 +1,7 @@
 @media only screen and (max-width: 700px) {
+    body{
+        font-size: 1em;
+    }
     #header{
         background-color: black;
         background-image: url(images/Capture.JPG);
@@ -59,12 +62,15 @@ display: none;
     padding-top: 5vh;
     width: 94vw;
     height: 80vh;
+    font-size: 0.8em;
 }
 
 .BackEnd ul li, .FrontEnd ul li, .Tools ul li {
     padding-top: 1vh;
     margin-left: 1vw;
 }
+
+
  /* ------------------------------- MyWork ------------------------------------------ */
  .headWork {
     text-align: center;
@@ -140,11 +146,10 @@ display: none;
 
 .cv{
     border: 2px solid;
-    padding-top: 2vh;
-    padding-left: 5vw;
-    width: 45vw;
-    height: 5vh;
-    margin-top: 5vh;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5em;
+    margin-top: 1em;
     background-color: #ff3300;
     border-radius: 20px;
     transition: 0.5s;
@@ -152,6 +157,7 @@ display: none;
 
 .cv a{
     text-decoration: none;
+    font-size: 1em;
     color: aliceblue;
 }
 
@@ -181,9 +187,8 @@ display: none;
 
 .formbtn{
     width: 50vw;
-    padding: 10px;
     justify-content: center;
-    margin: 5vh 0;
+    margin: 1em 0;
     background-color: #ff3300;
     color: aliceblue;
     border-radius: 50px;
@@ -194,9 +199,10 @@ display: none;
  .copyright{
     height: 5vh;
     text-align: center;
-    padding-top: 1.5vh;
+    padding-top: 0vh;
     color: aliceblue;
     font-family: 'Yeon Sung', cursive;
+    font-size: 0.75em;
     background-color: #262626;
 }
 }
