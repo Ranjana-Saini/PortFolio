@@ -201,7 +201,7 @@ display: none;
  .copyright{
     height: 5vh;
     text-align: center;
-    padding-top: 0vh;
+    padding-top: 1vh;
     color: aliceblue;
     font-family: 'Yeon Sung', cursive;
     font-size: 0.75em;
