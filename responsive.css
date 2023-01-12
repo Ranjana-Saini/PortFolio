@@ -3,9 +3,9 @@
         background-color: black;
         background-image: url(images/Capture.JPG);
         background-size:contain;
-        background-position-y: 10vh;
-        background-attachment: fixed;
-        height: 50vh;
+        background-position-y: 15vh;
+        background-attachment: scroll;
+        height: 60vh;
     }
 
     .container{
@@ -14,9 +14,179 @@
 
     .Intro{
         align-self: center;
-        margin-top: 10vh;
+        margin-top: 15vh;
         margin-left: 5vw;
         font-family: 'Baloo Bhai 2', cursive;
         font-size: 15px;
     }
+
+    .desg{
+        font-size: 10px;
+    }
+
+    .desc{
+        font-size:25px ;
+    }
+ /* ------------------------------- About ------------------------------------------ */
+ 
+ #about {
+    background-color: #0b0b0b;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutImage{
+display: none;
+}
+
+.AboutMeContent{
+    border: 2px solid white;
+    background-color: #000000;
+    border-radius: 5vh;
+    margin-left: 1vh;
+    padding-top: 5vh;
+    width: 94vw;
+    height: 80vh;
+}
+
+.BackEnd ul li, .FrontEnd ul li, .Tools ul li {
+    padding-top: 1vh;
+    margin-left: 1vw;
+}
+ /* ------------------------------- MyWork ------------------------------------------ */
+ .headWork {
+    text-align: center;
+    padding: 3vh;
+    font-family: 'Yeon Sung', cursive;
+    color: aliceblue;
+}
+#myWork{
+    height: 70vh;
+    flex-direction: column;
+    background-color: black;
+    border: 2px solid white;
+}
+ .box{
+    height: 50vh;
+    display: flex;
+    justify-content:flex-start;
+    overflow-x: scroll;
+}
+
+.img img{
+    border-radius: 10px;
+    height: 50vh;
+    width: 80vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+ /* ------------------------------- contact ------------------------------------------ */
+
+ #contact{
+    background-color: black;
+    height: 95vh;
+    display: block;
+}
+
+ .details{
+    padding-top: 5vh;
+    height: 35vh;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.details h2{
+    font-size: 40px;
+    margin-left: 0vw;
+    padding-top: 0vh;
+}
+
+.d{
+    font-size: 15px;
+    margin-left: 0vw;
+    padding-top: 1vh;
+}
+
+.social{
+    display: flex;
+    width: 8vw;
+    justify-content: space-around;
+    padding-top: 5vh;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.social a{
+    padding: 5vw;    
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.cv{
+    border: 2px solid;
+    padding-top: 2vh;
+    padding-left: 5vw;
+    width: 45vw;
+    height: 5vh;
+    margin-top: 5vh;
+    background-color: #ff3300;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.cv a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ /* ------------------------------- contact (form) ------------------------------------------ */
+
+ .form{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5vh;
+}
+.formContent{
+    background-color: #262626;
+    border-radius: 8px;
+    color: aliceblue;
+    height: 3vh;
+    width: 70%;
+    margin: vh 0vw;
+}
+
+#Message{
+    height: 20vh;
+}
+
+.formbtn{
+    width: 50vw;
+    padding: 10px;
+    justify-content: center;
+    margin: 5vh 0;
+    background-color: #ff3300;
+    color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+ /* ------------------------------- copyright ------------------------------------------ */
+ .copyright{
+    height: 5vh;
+    text-align: center;
+    padding-top: 1.5vh;
+    color: aliceblue;
+    font-family: 'Yeon Sung', cursive;
+    background-color: #262626;
+}
 }
