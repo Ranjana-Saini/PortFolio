@@ -40,7 +40,7 @@ padding-top: 3vh;
     color: aliceblue;
 }
 
-.linkedIn a :hover,.tweeter a :hover,.fb a :hover,.insta a :hover{
+.linkedIn a :hover,.HackerRank a :hover,.fb a :hover,.insta a :hover{
     color: aqua; 
     transform: translateY(-5px);
 }
